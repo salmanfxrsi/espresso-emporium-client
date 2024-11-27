@@ -24,6 +24,10 @@
     background-image: url("../src/assets/more/bg-home-header.png")
 }
 
+.bg-home-outlet{
+    background-image: url("../src/assets/more/bg-home-outlet.png")
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
