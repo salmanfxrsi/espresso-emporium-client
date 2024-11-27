@@ -4,7 +4,7 @@ const CoffeeDetails = ({ coffee }) => {
   const { name, chef, taste, photo, supplier, category, details } = coffee;
 
   return (
-    <div className="bg-[#F4F3F0] rounded-md py-[72px] px-[185px] font-raleway flex items-center gap-24">
+    <div className="bg-[#F4F3F0] rounded-md p-6 lg:py-[72px] lg:px-[185px] font-raleway flex flex-col lg:flex-row items-center gap-6 lg:gap-24">
       <div>
         <img src={photo} alt="" />
       </div>

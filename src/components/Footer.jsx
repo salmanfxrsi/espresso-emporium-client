@@ -8,7 +8,7 @@ import { MdMail } from "react-icons/md";
 const Footer = () => {
   return (
     <div className="bg-footer py-24">
-      <div className="container mx-auto flex justify-between">
+      <div className="w-11/12 lg:container mx-auto flex justify-between gap-12 lg:gap-0 flex-col lg:flex-row">
         {/* Footer Details */}
         <div className="space-y-8">
           <img className="w-20 h-20" src={logo} alt="" />
@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Social Icon Logo */}
           <div className="text-3xl text-[#331A15] flex gap-3">
             <FaFacebook></FaFacebook>
-            <BsTwitter></BsTwitter>
+            <BsTwitter></BsTwitter> 
             <BsInstagram></BsInstagram>
             <BsLinkedin></BsLinkedin>
           </div>

@@ -16,16 +16,16 @@ const HomeLayout = () => {
       </header>
       <main className="py-[120px] bg-home-page">
         {/* Our Popular Product Section */}
-        <section className="mb-[120px] container mx-auto">
+        <section className="mb-[120px] w-11/12 lg:container mx-auto">
           <OurPopularProductHeader></OurPopularProductHeader>
-          <div className="grid grid-cols-2 gap-6 mt-12">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-12">
             {coffees.map((coffee) => (
               <CoffeeCard key={coffee._id} coffee={coffee}></CoffeeCard>
             ))}
           </div>
         </section>
         {/* InstaTrail Section */}
-        <div className="container mx-auto">
+        <div className="w-11/12 lg:container mx-auto">
           <InstaTrail></InstaTrail>
         </div>
       </main>

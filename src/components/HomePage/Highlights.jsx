@@ -6,7 +6,7 @@ import properRoasting from "../../assets/highlights/proper-roasting.png";
 const Highlights = () => {
   return (
     <div className="bg-[#ECEAE3] py-14">
-      <div className="container mx-auto flex justify-between">
+      <div className="container mx-auto flex justify-between flex-col lg:flex-row items-center gap-6 lg:gap-0">
         <div>
           <img src={awesomeAroma} alt="" />
           <h1 className="text-[#331A15] text-4xl mt-4 mb-2">Awesome Aroma</h1>

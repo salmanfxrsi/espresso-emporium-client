@@ -7,7 +7,7 @@ const CoffeeDetailsLayout = () => {
 
   return (
     <div className="pt-[50px] pb-[120px] bg-add-coffee-page">
-      <main className="container mx-auto">
+      <main className="w-11/12 lg:container mx-auto">
         {/* Back To Home */}
         <section>
           <Link to={"/"} className="flex items-center gap-2 text-2xl">
