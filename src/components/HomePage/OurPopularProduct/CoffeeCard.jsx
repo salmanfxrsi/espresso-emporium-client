@@ -51,7 +51,7 @@ const CoffeeCard = ({ coffee }) => {
         >
           <BsEyeFill></BsEyeFill>
         </Link>
-        <Link className="w-10 h-10 bg-[#3C393B] rounded-md text-white text-2xl flex justify-center py-1.5">
+        <Link to={`/update-coffee/${_id}`} className="w-10 h-10 bg-[#3C393B] rounded-md text-white text-2xl flex justify-center py-1.5">
           <BiEdit></BiEdit>
         </Link>
         <button

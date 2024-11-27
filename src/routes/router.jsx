@@ -4,6 +4,7 @@ import HomeLayout from "../layouts/HomeLayout";
 import AddCoffeeLayout from "../layouts/AddCoffeeLayout";
 import CoffeeDetailsLayout from "../layouts/CoffeeDetailsLayout";
 import ErrorPage from "../pages/ErrorPage";
+import UpdateCoffeeLayout from "../layouts/UpdateCoffeeLayout";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
       {
         path: "/add-coffee",
         element: <AddCoffeeLayout></AddCoffeeLayout>
+      },
+      {
+        path: "/update-coffee/:id",
+        element: <UpdateCoffeeLayout></UpdateCoffeeLayout>,
+        loader: ({ params }) => fetch(`http://localhost:5000/coffees/${params.id}`)
       },
       {
         path: "/coffees/:id",
