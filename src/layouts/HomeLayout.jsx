@@ -1,7 +1,7 @@
-import { Outlet } from "react-router-dom";
 import Header from "../components/HomePage/Header";
 import Highlights from "../components/HomePage/Highlights";
 import InstaTrail from "../components/HomePage/InstaTrail";
+import OurPopularProductHeader from "../components/HomePage/OurPopularProduct/OurPopularProductHeader";
 
 const HomeLayout = () => {
   return (
@@ -10,7 +10,11 @@ const HomeLayout = () => {
         <Header></Header>
         <Highlights></Highlights>
       </header>
-      <main className="py-[120px] bg-home-outlet">
+      <main className="py-[120px] bg-home-page">
+        {/* Our Popular Product Section */}
+        <div className="mb-[120px]">
+            <OurPopularProductHeader></OurPopularProductHeader>
+        </div>
         {/* InstaTrail Section */}
         <div className="container mx-auto">
           <InstaTrail></InstaTrail>

@@ -24,8 +24,12 @@
     background-image: url("../src/assets/more/bg-home-header.png")
 }
 
-.bg-home-outlet{
-    background-image: url("../src/assets/more/bg-home-outlet.png")
+.bg-home-page{
+    background-image: url("../src/assets/more/bg-home-page.png")
+}
+
+.bg-add-coffee-page{
+    background-image: url("../src/assets/more/bg-add-coffee-page.png")
 }
 
 @tailwind base;
